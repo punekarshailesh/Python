@@ -31,65 +31,65 @@
 
 
 
-# f= open("demo.txt","r")
+f= open("demo.txt","r")
 
-# data = f.read()
-# print(data)
-# print(type(data))
-# f.close()  # closing the file is important
+data = f.read()
+print(data)
+print(type(data))
+f.close()  # closing the file is important
 
-# # f2 = open("xyz.txt","r")
+f2 = open("xyz.txt","r")
 
-# # # f2.write("Lets begin our journey in Gramener!")
+# f2.write("Lets begin our journey in Gramener!")
 
-# # data = f2.read()
-# # print(data)
-# # f2.close()
+data = f2.read()
+print(data)
+f2.close()
 
-# # a - used for writing, appending to the end of the file if it exists
+# a - used for writing, appending to the end of the file if it exists
 
-# f2 = open("xyz.txt","a")
+f2 = open("xyz.txt","a")
 
-# f2.write("\tAdded at the end of the file")
+f2.write("\tAdded at the end of the file")
 
-# f2.close()
+f2.close()
 
-# f2 = open("xyz.txt","r")
-# data = f2.read()
-# print(data)
+f2 = open("xyz.txt","r")
+data = f2.read()
+print(data)
 
-# f2.close()
+f2.close()
 
 
 
 
 # to read file line by line
-# f2 = open("demo.txt","r")
+f2 = open("demo.txt","r")
 
-# line1 = f2.readline()
-# print(line1)
+line1 = f2.readline()
+print(line1)
 
-# line2 = f2.readline()
-# print(line2)
+line2 = f2.readline()
+print(line2)
 
-# line3 = f2.readline()
-# print(line3)
+line3 = f2.readline()
+print(line3)
 
-# line4 = f2.readline()
-# print(line4)
+line4 = f2.readline()
+print(line4)
 
-# f2.close()
+f2.close()
 
-# f3 = open("demo.txt","r+")
-# f3.write("Hello shailesh") # complete overwrite nahi karta start ka part of the file overwrite karega
-# print(f3.read())
-# f3.close()
+f3 = open("demo.txt","r+")
+f3.write("Hello shailesh") # complete overwrite nahi karta start ka part of the file overwrite karega
+print(f3.read())
+f3.close()
 
 
-# f4 = open("demo.txt","w+")
-# f4.write("Lets overwrite everything in this demo.txt file!")
-# print(f4.read()) # as files content is deleted when we open w+ mode so no data is printed only the empty line is printed
-# f4.close()
+f4 = open("demo.txt","w+")
+f4.write("Lets overwrite everything in this demo.txt file!")
+print(f4.read()) # as files content is deleted when we open w+ mode so no data is printed only the empty line is printed
+f4.close()
 
 
 # with Syntax

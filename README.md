@@ -1,1 +1,1 @@
-Python complete thing from Beginner to Advance Level
+Complete python from Beginner to Advance Level
